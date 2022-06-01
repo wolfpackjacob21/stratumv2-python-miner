@@ -82,7 +82,7 @@ async def connect():
     )
 
     m1 = Miner(
-        "xtrinch.worker",
+        "tonybarant.worker",
         bus,
         diff_1_target=mining_params.diff_1_target,
         device_information=dict(
@@ -90,7 +90,7 @@ async def connect():
             vendor="python",
             hardware_version="PC",
             firmware="python-miner",
-            device_id="xtrinch.worker",
+            device_id="tonybarant.worker",
         ),
         connection=conn1,
     )
